@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="relative flex h-16 items-center justify-right">
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden text-black">
             {/* Mobile menu button*/}
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-4 text-gray-700 hover:bg-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-4 text-Black hover:bg-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Open main menu</span>
             </DisclosureButton>

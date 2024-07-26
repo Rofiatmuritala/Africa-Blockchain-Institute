@@ -3,12 +3,12 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer class="w-full py-20 bg-dark">
+      <footer class="w-full py-20 bg-black">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-center lg:justify-between flex-col lg:flex-row pb-12 gap-7 lg:gap-0 border-b border-gray-200"></div>
-          <div class="flex justify-between flex-col py-8 min-[500px]:py-14 gap-8 min-[500px]:gap-16 lg:gap-0 lg:flex-row">
+          {/* <div class="flex items-center justify-center lg:justify-between flex-col lg:flex-row pb-12 gap-7 lg:gap-0 border-b border-gray-200"></div> */}
+          <div class="flex justify-between flex-col min-[500px]: gap-8 min-[500px]:gap-16 lg:gap-0 lg:flex-row">
             <div class="block lg:max-w-md">
-              <h3 class="font-manrope font-semibold text-2xl text-gray-900 leading-9 mb-8 text-center lg:text-left">
+              <h3 class="font-manrope font-semibold pb-4 text-2xl text-orange-600 leading-9  text-center lg:text-left">
                 Subscribe To Our Newsletter
               </h3>
               <div class="lg:bg-gray-100 lg:rounded-full lg:h-16 lg:p-1.5 lg:flex-row gap-6 lg:gap-0 flex-col flex items-center justify-between">
@@ -100,14 +100,14 @@ function Footer() {
             </div>
             <div class="flex flex-col items-center max-lg:justify-center min-[500px]:items-start min-[500px]:flex-row gap-8 sm:gap-12 xl:gap-24">
               <div class="block">
-                <h4 class="text-lg text-gray-900 font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
+                <h4 class="text-lg text-orange-600 font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
                   Quick Links
                 </h4>
                 <ul class="grid grid-cols-2 gap-4 min-[500px]:gap-6 text-center min-[500px]:text-left">
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       About ABI{" "}
                     </a>
@@ -115,7 +115,7 @@ function Footer() {
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       Courses{" "}
                     </a>
@@ -124,7 +124,7 @@ function Footer() {
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       Enterprise
                     </a>
@@ -132,7 +132,7 @@ function Footer() {
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       Career
                     </a>
@@ -140,7 +140,7 @@ function Footer() {
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       Research{" "}
                     </a>
@@ -149,38 +149,38 @@ function Footer() {
               </div>
 
               <div class="block">
-                <h4 class="text-lg text-gray-900 font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
-                  Resources
+                <h4 class="text-lg text-orange-600 font-medium mb-4 min-[500px]:mb-7 text-center min-[500px]:text-left">
+                  Contact
                 </h4>
                 <ul class="grid gap-4 min-[500px]:gap-6 text-center min-[500px]:text-left">
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
-                      FAQs
+                      +250 783 632 405
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
-                      Quick Start
+                      info@africablockchain.institute
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
-                      Documentation
+                      KN 5 Airport Road, Kimihurura, Kigali, Rwanda
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:;"
-                      class="text-gray-600 hover:text-gray-900"
+                      class="text-white hover:text-gray-900"
                     >
                       User Guide
                     </a>
@@ -189,13 +189,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div class="py-9 border-t border-gray-200">
-            <div class=" text-white text-center py-8">
-              <p>
-                &copy; Copyright [Your Name] . All rights reserved. Made By
-                Binary Boats⛵
-              </p>
-            </div>
+          <div class="py-9 border-t border-gray-200 text-white text-center py-8">
+            <p>© 2024 Africa Blockchain Institute | All rights reserved.</p>
           </div>
         </div>
       </footer>

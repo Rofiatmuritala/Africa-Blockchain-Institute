@@ -25,7 +25,7 @@ function Footer() {
                   Subscribe
                 </button>
               </div>
-              <div class="flex mt-4 pt-10 space-x-4 sm:justify-center sm:mt-0 ">
+              <div class="flex mt-4 pt-10 space-x-4 sm:justify-center items-start sm:mt-0 ">
                 <a
                   href="javascript:;"
                   class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600"

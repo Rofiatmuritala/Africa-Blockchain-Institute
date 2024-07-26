@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <div class="bg-white">
-        <header class="bg-green-500 text-white text-center py-12">
+        <header class="bg-black text-white text-center py-12">
           <h1 class="text-4xl font-bold mt-16">About Us</h1>
         </header>
 
@@ -24,7 +24,7 @@ function About() {
           </div>
         </section>
 
-        <section class="bg-green-500 text-white py-12 px-4">
+        <section class="bg-orange-600 text-white py-12 px-4">
           <h2 class="text-2xl font-bold text-center">Our Vision</h2>
           <p class="mt-4 text-center max-w-2xl mx-auto">
             Healthcare anytime, anywhere. We aim to revolutionize the healthcare

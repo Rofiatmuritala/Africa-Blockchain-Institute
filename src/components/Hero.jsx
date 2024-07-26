@@ -16,7 +16,7 @@ function Hero() {
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
-        <h1 class="text-5xl font-bold leading-tight mb-4">
+        <h1 class="text-3xl lg:text-5xl font-bold leading-tight mb-4">
           Welcome to Our African Blockchain Institute
         </h1>
         <p class="text-lg font-bold text-gray-300 mb-8">Courses </p>

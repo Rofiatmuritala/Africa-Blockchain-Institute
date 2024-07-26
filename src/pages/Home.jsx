@@ -9,7 +9,7 @@ function Home() {
     <div>
       <Hero />
       <Courses />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

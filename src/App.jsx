@@ -7,6 +7,8 @@ import Hero from "./components/Navbar";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import { Login } from "./components/Login";
 
 function App() {
   return (
@@ -15,11 +17,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          {/* <Route path="/search" element={<SearchPage />}></Route>
-          <Route path="/popular" element={<PopularPage />}></Route>
-          <Route path="/toprated" element={<RatedPage />}></Route>
-          <Route path="/movies/:id" element={<DetailsPage />}></Route> */}
+          {/* <Route path="/search" element={<SearchPage />}></Route> */}
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/login" element={<Login />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
